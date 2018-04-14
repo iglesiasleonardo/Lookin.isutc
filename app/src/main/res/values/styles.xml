@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#016098</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--Botao Cadastrar-->
+    <style name="botao_cadastrar" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#0084BF</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--Botao Entrar 1-->
+    <style name="botao_entrar" parent="Base.Widget.AppCompat.Button">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@drawable/entrar_botao</item>
+    </style>
+    <!--Botao Google-->
+    <style name="botao_cadastrar_google" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/holo_red_light</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!--Botoes cadastrar-->
+    <style name="botoes_cadastrar" parent="Base.Widget.AppCompat.Button">
+        <item name="android:colorButtonNormal">#079cd6</item>
+        <item name="android:textColor">@drawable/button</item>
+        <item name="colorControlHighlight">#07a9d6</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!--Botao Entrar 2-->
+    <style name="botao_entrar_dois" parent="Base.Widget.AppCompat.Button">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@drawable/button</item>\
+        <item name="colorControlHighlight">#07a9d6</item>
+    </style>
+
+</resources>
